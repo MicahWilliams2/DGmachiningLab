@@ -4,6 +4,19 @@ const path = require('path')
 const BLOG = require('./blog.config')
 const { extractLangPrefix } = require('./lib/utils/pageId')
 
+module.exports = {
+  images: {
+    domains: [
+      'img.notionusercontent.com',
+      'www.notion.so',
+      'notion.so',
+      'notion.site',
+      'secure.notion-static.com',
+      's3.us-west-2.amazonaws.com'
+    ]
+  }
+}
+
 // 打包时是否分析代码
 const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: BLOG.BUNDLE_ANALYZER
