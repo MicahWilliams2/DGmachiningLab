@@ -8,7 +8,7 @@ module.exports = {
   CONTACT_TWITTER: process.env.NEXT_PUBLIC_CONTACT_TWITTER || 'https://x.com/godofmachining', // 你的twitter个人主页
   CONTACT_GITHUB: process.env.NEXT_PUBLIC_CONTACT_GITHUB || '', // 你的github个人主页 例如 https://github.com/tangly1024
   CONTACT_TELEGRAM: process.env.NEXT_PUBLIC_CONTACT_TELEGRAM || '', // 你的telegram 地址 例如 https://t.me/tangly_1024
-  CONTACT_LINKEDIN: process.env.NEXT_PUBLIC_CONTACT_LINKEDIN || 'https://www.linkedin.com/in/godofmachining/', // 你的linkedIn 首页
+  CONTACT_LINKEDIN: process.env.NEXT_PUBLIC_CONTACT_LINKEDIN || 'https://www.linkedin.com/in/dgmachininglab/', // 你的linkedIn 首页
   CONTACT_INSTAGRAM: process.env.NEXT_PUBLIC_CONTACT_INSTAGRAM || 'https://www.instagram.com/godofmachining/?hl=en', // 您的instagram地址
   CONTACT_INSTAGRAM: process.env.NEXT_PUBLIC_CONTACT_TIKTOK || 'https://www.tiktok.com/@godofmachining', // 您的TIKTOK地址
   CONTACT_INSTAGRAM: process.env.NEXT_PUBLIC_CONTACT_FACEBOOK || 'https://www.facebook.com/GodOfMachining/', // 您的facebook地址
